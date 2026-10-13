@@ -1,8 +1,8 @@
 class Sqlmux < Formula
   desc "Terminal database client organized like tmux, for PostgreSQL and MySQL"
   homepage "https://github.com/kackerx/sqlmux"
-  url "https://github.com/kackerx/sqlmux/archive/refs/tags/v0.2.1.tar.gz"
-  sha256 "64b366a125e7505c4f17946da335f86f3076874c9abb88767db36619b7a98934"
+  url "https://github.com/kackerx/sqlmux/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "b07864d3ceebed7651ebe3f543a9d254e808eb2e72d5e19ec8b128489e5569d2"
   license "MIT"
 
   depends_on "go" => :build

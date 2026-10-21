@@ -1,14 +1,14 @@
 class Sqlmux < Formula
   desc "Tmux-style terminal database client for PostgreSQL, MySQL, SQLite and Redis"
   homepage "https://github.com/kackerx/sqlmux"
-  url "https://github.com/kackerx/sqlmux/archive/refs/tags/v0.6.0.tar.gz"
-  sha256 "c1158d21e75d82499edc06aa6aa1421a0c78d8b41b5595814555d032c30bf139"
+  url "https://github.com/kackerx/sqlmux/archive/refs/tags/v0.6.1.tar.gz"
+  sha256 "a33ab406500ab1eb6514b44ee033d2f67456eba633cb72f4aedc1bf7e0daea5a"
   license "MIT"
 
   depends_on "go" => :build
 
   def install
-    ldflags = "-s -w -X main.version=v#{version} -X main.commit=604aef6 -X main.date=2026-10-20T05:36:18Z" # std_go_args(ldflags:) adds nothing of its own
+    ldflags = "-s -w -X main.version=v#{version} -X main.commit=45f2d8e -X main.date=2026-10-21T05:21:56Z" # std_go_args(ldflags:) adds nothing of its own
     system "go", "build", *std_go_args(ldflags:), "./cmd/sqlmux"
   end
 

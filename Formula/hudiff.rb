@@ -2,7 +2,7 @@ class Hudiff < Formula
   desc "Diffs for humans: an agent explains a diff, you comment line by line in the browser"
   homepage "https://github.com/kackerx/hudiff"
   url "https://github.com/kackerx/hudiff/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "f4c0b3bc555ec47e2384230af91ee4cc66e0a93f43fc244df2bd96e37e0f5103"
+  sha256 "4baff938df170382da509e46b7921a8cc39e11d4a6bbe7507df91d25150a1371"
   license "MIT"
 
   depends_on "go" => :build
